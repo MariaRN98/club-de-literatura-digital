@@ -69,7 +69,7 @@ footer {
 
 .cuentos-versiones {
     display: flex;
-    gap: 10px; /*separacion entre versiones*/
+    gap: 100px; /*separacion entre versiones*/
 }
 
 .cuento-original, .cuento-version {
