@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg');
+    background-image: url('fondo.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: #333;
@@ -13,7 +13,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(125, 17, 100, 0.8);
 }
 
 .logo {
@@ -47,6 +47,47 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(125, 17, 100, 0.8);
     color: white;
+}
+
+.cuentos-container {
+    display: flex;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-vertical {
+    width: 80%;
+    padding: 10px;
+}
+
+.cuentos {
+    width: 80%;
+}
+
+.cuentos-versiones {
+    display: flex;
+    gap: 10px; /*separacion entre versiones*/
+}
+
+.cuento-original, .cuento-version {
+    width: calc(50% - 10px); 
+    padding: 10px;
+}
+
+.imagen-proyecto {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 1000px; 
+}
+
+.ilustracion-cuento {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
